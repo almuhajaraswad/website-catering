@@ -1,0 +1,19 @@
+@media print
+{    
+    .navbar-nav, #btn-show, .btn-absen, footer, #btn-cetak, form, .alert-warning, .sa
+    {
+        display: none !important;
+        border: none;
+    }
+    .table {
+        display: unset !important;
+    }
+    .card {
+        box-shadow: none !important;
+        margin: 0;
+        border: none;
+    }
+    .table {
+        width: 100% !important;
+    }
+}
